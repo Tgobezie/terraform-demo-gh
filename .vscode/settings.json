@@ -1,0 +1,9 @@
+{
+    "yaml.schemas": {
+        "kubernetes": "*.yml",
+        "https://www.schemastore.org/github-workflow.json": [
+            "file:///c%3A/Users/Tare/Documents/projects/terraform-demo-gh/provision.yml",
+            "file:///c%3A/Users/Tare/Documents/projects/terraform-demo-gh/test.yml"
+        ]
+    }
+}

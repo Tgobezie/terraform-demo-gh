@@ -16,10 +16,10 @@ EC2 instance has been SSH'd from local machine successfully.
 ```
 
 
-## Deploy code to AWS Cloud using GitLab CI/CD pipeline
+## Deploy code to AWS Cloud using GitHub Actions CI/CD pipeline
 ```
-Create GitLab CI/CD configuration file - done.
-Test and deploy code using the CI/CD pipeline - in progress.
+Create GitHub Actions CI/CD configuration file - done.
+Test and deploy code using the CI/CD pipeline - done.
 ```
 
 
@@ -29,10 +29,10 @@ AWS Cloud
 AWS CLI
 Terraform
 VSCode to write the Terraform code
-Git/GitLab
-GitLab CI/CD
+Git/GitHub
+GitHub Actions CI/CD
 YAML for pipeline script
-Docker for GitLab runner
+Docker for for images
 Bash shell script
 ```
 

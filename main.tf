@@ -3,20 +3,18 @@
 # State file store
 terraform {
   backend "s3" {
-    bucket  = "t-demo-tfstates"
-    key     = "terraform-demo"
-    region  = "us-east-1"
-    profile = "default"
+    bucket = "t-demo-tfstates"
+    key    = "terraform-demo"
+    region = "us-east-1"
   }
 }
 
 module "vpc" {
-    source  = "./modules/vpc"
+  source = "./modules/vpc"
 }
 
 module "ec2" {
-    source  = "./modules/ec2"
-    sgroup  = module.vpc.demo-sg
-    sub     = module.vpc.demo-subnet
-
+  source = "./modules/ec2"
+  sgroup = module.vpc.demo-sg
+  sub    = module.vpc.demo-subnet
 }
